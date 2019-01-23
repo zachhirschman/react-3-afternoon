@@ -1,0 +1,21 @@
+import React, {Component} from "react"
+
+
+
+class app extends Component{
+    constructor(props){
+        super(props)
+        this.state={
+            bagels:[{name: "Onion Bagel",
+            imageUrl:"http://cdn.shopify.com/s/files/1/1749/6693/products/onion-bagel_1024x1024.png?v=1531755332",
+            scale: 9}]
+        }
+    }
+    render(){
+        return(
+            <div>
+                
+            <div/>
+        )
+    }
+}
